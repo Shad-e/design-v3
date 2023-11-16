@@ -6450,17 +6450,18 @@ ol, ul {
 
 html, body {
   height: 100%;
-  background-color: beige;
 }
 
 body {
-  background-color: #3d5a80;
+  background-color: #b6c6dc;
   display: flex;
   flex-direction: column;
 }
 
 .main {
   flex: 1 0 auto;
+  width: 64em;
+  margin: 0 auto;
 }
 
 .header, .footer {
@@ -6470,7 +6471,6 @@ body {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: white;
 }
 
 .title, .logo {
@@ -6488,8 +6488,16 @@ body {
     max-width: 30%;
   }
 }
-.nav {
-  background-color: black;
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+.nav a:hover {
+  border-bottom: 4px solid rgb(30, 71, 65);
+}
+.nav .active a {
+  border-bottom: 4px solid rgb(10, 197, 234);
 }
 
 .footer {
@@ -6539,4 +6547,114 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+/* For the plural technologies */
+.landingpage {
+  display: grid;
+  gap: 1rem 2rem;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
+
+.css-box {
+  grid-column: span 1;
+}
+
+.html-box {
+  grid-column: span 2;
+}
+
+.javascript-box {
+  grid-column: span 2;
+}
+
+.php-box {
+  grid-column: span 1;
+}
+
+.python-box {
+  grid-column: span 3;
+}
+
+.git-box {
+  grid-column: span 1;
+}
+
+.sqlite-box {
+  grid-column: span 2;
+}
+
+.css-box,
+.html-box,
+.javascript-box,
+.php-box,
+.python-box,
+.git-box,
+.sqlite-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  background-color: #3d7480;
+  border-radius: 10px;
+}
+.css-box a,
+.html-box a,
+.javascript-box a,
+.php-box a,
+.python-box a,
+.git-box a,
+.sqlite-box a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+.css-box a:hover,
+.html-box a:hover,
+.javascript-box a:hover,
+.php-box a:hover,
+.python-box a:hover,
+.git-box a:hover,
+.sqlite-box a:hover {
+  border-bottom: 4px solid rgb(30, 71, 65);
+}
+
+/* For the singular technologies */
+.single-technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tech-menu {
+  width: 30%;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
+
+.tech-content {
+  width: 60%;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  background-color: #3d7480;
+  border-radius: 10px;
+}
+.post a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+.post a:hover {
+  border-bottom: 4px solid rgb(30, 71, 65);
 }
