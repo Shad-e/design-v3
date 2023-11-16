@@ -6468,6 +6468,34 @@ body {
   flex: 0 0 auto;
 }
 
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+}
 .header, .site-header {
   display: flex;
   justify-content: space-between;
@@ -6657,4 +6685,20 @@ pre code {
 }
 .post a:hover {
   border-bottom: 4px solid rgb(30, 71, 65);
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust spans for other boxes */
+  .landingpage h1 {
+    grid-column: span 1; /* Set to 1 span for phones */
+  }
+  .css-box,
+  .php-box,
+  .git-box,
+  .python-box,
+  .html-box,
+  .javascript-box,
+  .sqlite-box {
+    grid-column: span 1; /* Set to 1 span for phones */
+  }
 }

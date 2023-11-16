@@ -115,3 +115,23 @@
     //     border-bottom: 4px solid rgb(10, 197, 234);
     // }
 }
+
+@media screen and (max-width: 768px) {
+
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .css-box,
+    .php-box,
+    .git-box,
+    .python-box,
+    .html-box,
+    .javascript-box,
+    .sqlite-box {
+        grid-column: span 1; 
+        width: 50%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
