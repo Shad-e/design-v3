@@ -1,0 +1,117 @@
+/* For the plural technologies */
+
+.landingpage {
+    display: grid;
+    gap: 1rem 2rem;
+ 
+
+}
+
+
+.landingpage h1 {
+    grid-column: span 3;
+    text-align: center;
+    font-family: $header-font;
+    color: $font-color
+
+    
+}
+
+
+
+.css-box {
+    grid-column: span 1;
+}
+
+.html-box {
+    grid-column: span 2;
+}
+
+.javascript-box {
+    grid-column: span 2;
+}
+
+.php-box {
+    grid-column: span 1;
+}
+
+.python-box {
+    grid-column: span 3;
+}
+
+.git-box {
+    grid-column: span 1;
+}
+
+.sqlite-box {
+    grid-column: span 2;
+
+    
+}
+
+.css-box, 
+.html-box, 
+.javascript-box, 
+.php-box, 
+.python-box, 
+.git-box, 
+.sqlite-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: #3d7480;
+    border-radius: 10px;
+
+    a {
+        text-decoration: none;
+        color: $font-color;
+        font-family: $header-font;
+    }
+    
+    a:hover {
+        border-bottom: 4px solid rgb(30, 71, 65);
+    }
+}
+
+
+/* For the singular technologies */
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    width: 30%;
+    text-align: center;
+    font-family: $header-font;
+    color: $font-color;
+}
+
+
+.tech-content {
+    width: 60%;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: #3d7480;
+    border-radius: 10px;
+
+    a {
+        text-decoration: none;
+        color: $font-color;
+        font-family: $header-font;
+    }
+    
+    a:hover {
+        border-bottom: 4px solid rgb(30, 71, 65);
+    }
+
+    // .active a {
+    //     border-bottom: 4px solid rgb(10, 197, 234);
+    // }
+}
