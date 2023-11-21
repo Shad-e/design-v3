@@ -1,6 +1,10 @@
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+
+    a {
+        color: $font-color;
+    }
 }
 
 .title, .logo {

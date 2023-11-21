@@ -6453,7 +6453,7 @@ html, body {
 }
 
 body {
-  background-color: #b6c6dc;
+  background-color: #2A2A56;
   display: flex;
   flex-direction: column;
 }
@@ -6469,7 +6469,7 @@ body {
 }
 
 .p {
-  color: #333;
+  color: #6F6F96;
 }
 
 .header, .site-header {
@@ -6494,7 +6494,7 @@ body {
 }
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: #6F6F96;
   font-family: "Lato", sans-serif;
 }
 .nav a:hover {
@@ -6567,7 +6567,7 @@ pre code {
   grid-column: span 3;
   text-align: center;
   font-family: "Lato", sans-serif;
-  color: #333;
+  color: #6F6F96;
 }
 
 .css-box {
@@ -6619,7 +6619,7 @@ pre code {
 .git-box a,
 .sqlite-box a {
   text-decoration: none;
-  color: #333;
+  color: #6F6F96;
   font-family: "Lato", sans-serif;
 }
 .css-box a:hover,
@@ -6644,7 +6644,7 @@ pre code {
   width: 30%;
   text-align: center;
   font-family: "Lato", sans-serif;
-  color: #333;
+  color: #6F6F96;
 }
 
 .tech-content {
@@ -6660,7 +6660,7 @@ pre code {
 }
 .post a {
   text-decoration: none;
-  color: #333;
+  color: #6F6F96;
   font-family: "Lato", sans-serif;
 }
 .post a:hover {

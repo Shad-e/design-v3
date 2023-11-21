@@ -1,13 +1,17 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 2px solid #222;
 }
 
 .footer a {
-    color: #222;
+    color: $link-font-color;
 }
 
 .footer .social {
     font-size: 2rem;
+}
+
+.social a {
+    text-decoration: none;
 }
