@@ -7,9 +7,19 @@
     }
 }
 
-.title, .logo {
-    padding: 3em 3em 3em 0;
+
+.logo {
+    padding: 3em;
+    
+    a {
+        text-decoration: none;
+    }
 }
+
+.title {
+    padding: 2em;
+}
+
 
 @media (max-width: 767px) {
     .title, .logo {
@@ -34,10 +44,11 @@
     }
 
     a:hover {
-        border-bottom: 4px solid rgb(30, 71, 65);
+        border-bottom: $nav-link-hover-color;
     }
 
     .active a {
-        border-bottom: 4px solid rgb(10, 197, 234);
+        border-bottom: $nav-link-active-color;
     }
+
 }
