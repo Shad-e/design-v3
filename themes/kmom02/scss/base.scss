@@ -15,7 +15,9 @@ ol, ul {
 }
 
 html, body {
+    margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -29,6 +31,8 @@ body {
     flex: 1 0 auto;
     width: 64em;
     margin: 0 auto;
+
+
 }
 
 .header, .footer {
@@ -47,4 +51,14 @@ a {
 }
 a:hover {
     border-bottom: $nav-link-hover-color;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        flex: 1 0 auto;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
 }

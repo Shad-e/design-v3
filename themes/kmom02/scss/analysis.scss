@@ -66,3 +66,25 @@
     width: 65em;
     border-radius: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .facebook-image,
+    .instagram-image,
+    .twitter-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .landingpage h1 {
+        grid-column: span 3;
+    }
+
+    .color-box,
+    .load-box,
+    .design-box {
+        grid-column: span 3; 
+        width: 50%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

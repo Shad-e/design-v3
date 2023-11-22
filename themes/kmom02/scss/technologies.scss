@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 768px) {
     .landingpage h1 {
-        grid-column: span 1;
+        grid-column: span 3;
     }
 
     .css-box,
@@ -128,7 +128,7 @@
     .html-box,
     .javascript-box,
     .sqlite-box {
-        grid-column: span 1; 
+        grid-column: span 3; 
         width: 50%;
         justify-content: center;
         margin: 0 auto;
