@@ -6456,6 +6456,7 @@ body {
   background-color: #b6c6dc;
   display: flex;
   flex-direction: column;
+  color: #333;
 }
 
 .main {
@@ -6468,17 +6469,23 @@ body {
   flex: 0 0 auto;
 }
 
-.p {
-  color: #333;
-}
-
 .header, .site-header {
   display: flex;
   justify-content: space-between;
 }
+.header a, .site-header a {
+  color: #333;
+}
 
-.title, .logo {
-  padding: 3em 3em 3em 0;
+.logo {
+  padding: 3em;
+}
+.logo a {
+  text-decoration: none;
+}
+
+.title {
+  padding: 2em;
 }
 
 @media (max-width: 767px) {
@@ -6498,20 +6505,21 @@ body {
   font-family: "Lato", sans-serif;
 }
 .nav a:hover {
-  border-bottom: 4px solid rgb(30, 71, 65);
+  border-bottom: 4px solid #1e4741;
 }
 .nav .active a {
-  border-bottom: 4px solid rgb(10, 197, 234);
+  border-bottom: 4px solid #0ac5ea;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
+  border-top: 2px solid #333;
+  padding: 0.5em;
 }
 
 .footer a {
-  color: #222;
+  color: #787878;
 }
 
 .footer .social {

@@ -6456,6 +6456,7 @@ body {
   background-color: #2A2A56;
   display: flex;
   flex-direction: column;
+  color: #6F6F96;
 }
 
 .main {
@@ -6468,17 +6469,23 @@ body {
   flex: 0 0 auto;
 }
 
-.p {
-  color: #6F6F96;
-}
-
 .header, .site-header {
   display: flex;
   justify-content: space-between;
 }
+.header a, .site-header a {
+  color: #6F6F96;
+}
 
-.title, .logo {
-  padding: 3em 3em 3em 0;
+.logo {
+  padding: 3em;
+}
+.logo a {
+  text-decoration: none;
+}
+
+.title {
+  padding: 2em;
 }
 
 @media (max-width: 767px) {
@@ -6498,20 +6505,21 @@ body {
   font-family: "Lato", sans-serif;
 }
 .nav a:hover {
-  border-bottom: 4px solid rgb(30, 71, 65);
+  border-bottom: 4px solid #D6CFAE;
 }
 .nav .active a {
-  border-bottom: 4px solid rgb(10, 197, 234);
+  border-bottom: 4px solid #AEAED6;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
+  border-top: 2px solid #6F6F96;
+  padding: 0.5em;
 }
 
 .footer a {
-  color: #222;
+  color: #A4AED6;
 }
 
 .footer .social {
@@ -6608,7 +6616,7 @@ pre code {
   border: 1px solid #ccc;
   padding: 1rem;
   text-align: center;
-  background-color: #3d7480;
+  background-color: #AEAED6;
   border-radius: 10px;
 }
 .css-box a,
@@ -6655,7 +6663,7 @@ pre code {
   border: 1px solid #ccc;
   padding: 1rem;
   text-align: center;
-  background-color: #3d7480;
+  background-color: #AEAED6;
   border-radius: 10px;
 }
 .post a {
@@ -6683,4 +6691,49 @@ pre code {
     justify-content: center;
     margin: 0 auto;
   }
+}
+.landingpage {
+  display: grid;
+  gap: 1rem 2rem;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #6F6F96;
+}
+
+.color-box {
+  grid-column: span 1;
+}
+
+.load-box {
+  grid-column: span 2;
+}
+
+.design-box {
+  grid-column: span 2;
+}
+
+.color-box,
+.load-box,
+.design-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  background-color: #AEAED6;
+  border-radius: 10px;
+}
+.color-box a,
+.load-box a,
+.design-box a {
+  text-decoration: none;
+  color: #6F6F96;
+  font-family: "Lato", sans-serif;
+}
+.color-box a:hover,
+.load-box a:hover,
+.design-box a:hover {
+  border-bottom: 4px solid rgb(30, 71, 65);
 }

@@ -35,4 +35,16 @@ body {
     flex: 0 0 auto;
 }
 
+p {
+    line-height: 1.5em;
+    letter-spacing: 0.015em;
+}
 
+a {
+    color: $link-font-color;
+    text-decoration: none;
+   
+}
+a:hover {
+    border-bottom: $nav-link-hover-color;
+}
