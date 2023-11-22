@@ -1,0 +1,68 @@
+.landingpage {
+    display: grid;
+    gap: 1rem 2rem;
+ 
+
+}
+
+
+.landingpage h1 {
+    grid-column: span 3;
+    text-align: center;
+    font-family: $header-font;
+    color: $font-color
+
+    
+}
+
+
+
+.color-box {
+    grid-column: span 1;
+}
+
+.load-box {
+    grid-column: span 1;
+}
+
+.design-box {
+    grid-column: span 1;
+}
+
+.color-box, 
+.load-box, 
+.design-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: $tech-box-color;
+    border-radius: 10px;
+
+    a {
+        text-decoration: none;
+        color: $font-color;
+        font-family: $header-font;
+    }
+    
+    a:hover {
+        border-bottom: $nav-link-hover-color;
+    }
+}
+
+.facebook-image {
+    height: 50em;
+    width: 65em;
+    border-radius: 1em;
+}
+
+.instagram-image {
+    height: 50em;
+    width: 65em;
+    border-radius: 1em;
+}
+
+.twitter-image {
+    height: 50em;
+    width: 65em;
+    border-radius: 1em;
+}
