@@ -1,8 +1,11 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid #222;
+    border-top: $footer-border-color;
+    padding: 0.5em;
+    margin-top: 5em;
 }
+
 
 .footer a {
     color: $link-font-color;
