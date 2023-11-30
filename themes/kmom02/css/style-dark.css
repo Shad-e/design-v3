@@ -6458,7 +6458,7 @@ body {
   background-color: #2A2A56;
   display: flex;
   flex-direction: column;
-  color: #6F6F96;
+  color: #FFF;
 }
 
 .main {
@@ -6477,7 +6477,7 @@ p {
 }
 
 a {
-  color: #A4AED6;
+  color: #9191b2;
   text-decoration: none;
 }
 
@@ -6490,6 +6490,7 @@ a:hover {
     flex: 1 0 auto;
     width: 100%;
     margin: 0 auto;
+    padding: 10em;
   }
 }
 .header, .site-header {
@@ -6497,7 +6498,7 @@ a:hover {
   justify-content: space-between;
 }
 .header a, .site-header a {
-  color: #6F6F96;
+  color: #FFF;
 }
 
 .logo {
@@ -6524,7 +6525,7 @@ a:hover {
 }
 .nav a {
   text-decoration: none;
-  color: #6F6F96;
+  color: #FFF;
   font-family: "Lato", sans-serif;
 }
 .nav a:hover {
@@ -6543,7 +6544,7 @@ a:hover {
 }
 
 .footer a {
-  color: #A4AED6;
+  color: #9191b2;
 }
 
 .footer .social {
@@ -6599,7 +6600,7 @@ pre code {
   grid-column: span 3;
   text-align: center;
   font-family: "Lato", sans-serif;
-  color: #6F6F96;
+  color: #FFF;
 }
 
 .css-box {
@@ -6651,7 +6652,7 @@ pre code {
 .git-box a,
 .sqlite-box a {
   text-decoration: none;
-  color: #6F6F96;
+  color: #FFF;
   font-family: "Lato", sans-serif;
 }
 .css-box a:hover,
@@ -6676,7 +6677,7 @@ pre code {
   width: 30%;
   text-align: center;
   font-family: "Lato", sans-serif;
-  color: #6F6F96;
+  color: #FFF;
 }
 
 .tech-content {
@@ -6692,7 +6693,7 @@ pre code {
 }
 .post a {
   text-decoration: none;
-  color: #6F6F96;
+  color: #FFF;
   font-family: "Lato", sans-serif;
 }
 .post a:hover {
@@ -6716,6 +6717,53 @@ pre code {
     margin: 0 auto;
   }
 }
+.gallery-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem 2rem;
+}
+
+.gallery-page a:hover {
+  border: 4px solid #D6CFAE;
+}
+
+.image-box {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.embed-container {
+  grid-column: span 3;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-page,
+  .image-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .landingpage {
   display: grid;
   gap: 1rem 2rem;
@@ -6725,7 +6773,7 @@ pre code {
   grid-column: span 3;
   text-align: center;
   font-family: "Lato", sans-serif;
-  color: #6F6F96;
+  color: #FFF;
 }
 
 .color-box {
@@ -6753,7 +6801,7 @@ pre code {
 .load-box a,
 .design-box a {
   text-decoration: none;
-  color: #6F6F96;
+  color: #FFF;
   font-family: "Lato", sans-serif;
 }
 .color-box a:hover,
