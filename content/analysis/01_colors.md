@@ -1,6 +1,6 @@
 ---
 Title: Analysis
-Description: This is our analysis page.
+Description: This is our colors page.
 ---
 
 Analys av webbsidors färgval
