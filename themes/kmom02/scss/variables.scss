@@ -8,10 +8,17 @@ $accent-color: #ee6c4d;
 $background-color: #b6c6dc;
 $background-alternative-color: #e0fbfc;
 
-$tech-box-color: #3d7480;
-$tech-menu-color: #3d7480;
+$tech-box-color: #333;;
+$tech-box-text-color: #b6c6dc;
 
-$footer-border-color: 2px solid #333;
+$tech-menu-color: #333;
+$tech-menu-text-color: #b6c6dc;
+
+
+$footer-border-color: 1px solid #295086;
 
 $nav-link-hover-color: 4px solid #1e4741;
 $nav-link-active-color: 4px solid #0ac5ea;
+
+$footer-background-color: #3f6aa6;
+$footer-background-gradient: linear-gradient(90deg, rgba(63,106,166,1) 0%, rgba(182,198,219,1) 100%);

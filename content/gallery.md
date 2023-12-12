@@ -66,7 +66,7 @@ Images
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/s4gBChg6AII?si=Xp6-MeP3_yaOI7tV" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/s4gBChg6AII?si=Xp6-MeP3_yaOI7tV" title="WoW-Video" frameborder="0" allowfullscreen></iframe>
 </div>
 
 

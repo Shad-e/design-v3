@@ -41,14 +41,15 @@
         text-decoration: none;
         color: $font-color;
         font-family: $header-font;
+        position: relative;
+        transition: color 0.3s, border-bottom 0.3s;
     }
 
     a:hover {
-        border-bottom: $nav-link-hover-color;
+        border-bottom: 2px solid $nav-link-hover-color; 
     }
 
     .active a {
-        border-bottom: $nav-link-active-color;
+        border-bottom: 2px solid $nav-link-active-color;
     }
-
 }
