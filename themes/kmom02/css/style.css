@@ -6433,11 +6433,20 @@ h3 {
   font-family: "Lato", sans-serif;
 }
 
+li {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
   padding: 0;
+}
+
+.logo img {
+  border-radius: 50%;
 }
 
 ol, ul {
@@ -6490,7 +6499,7 @@ a:hover {
     flex: 1 0 auto;
     width: 100%;
     margin: 0 auto;
-    padding: 10em;
+    padding: 2em;
   }
 }
 .header, .site-header {
@@ -6527,20 +6536,24 @@ a:hover {
   text-decoration: none;
   color: #333;
   font-family: "Lato", sans-serif;
+  position: relative;
+  transition: color 0.3s, border-bottom 0.3s;
 }
 .nav a:hover {
-  border-bottom: 4px solid #1e4741;
+  border-bottom: 2px solid 4px solid #1e4741;
 }
 .nav .active a {
-  border-bottom: 4px solid #0ac5ea;
+  border-bottom: 2px solid 4px solid #0ac5ea;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #333;
+  border-top: 1px solid #295086;
   padding: 0.5em;
   margin-top: 5em;
+  background: #3f6aa6;
+  background: linear-gradient(90deg, rgb(63, 106, 166) 0%, rgb(182, 198, 219) 100%);
 }
 
 .footer a {
@@ -6641,7 +6654,7 @@ pre code {
   border: 1px solid #ccc;
   padding: 1rem;
   text-align: center;
-  background-color: #3d7480;
+  background-color: #333;
   border-radius: 10px;
 }
 .css-box a,
@@ -6652,7 +6665,7 @@ pre code {
 .git-box a,
 .sqlite-box a {
   text-decoration: none;
-  color: #333;
+  color: #b6c6dc;
   font-family: "Lato", sans-serif;
 }
 .css-box a:hover,
@@ -6688,12 +6701,12 @@ pre code {
   border: 1px solid #ccc;
   padding: 1rem;
   text-align: center;
-  background-color: #3d7480;
+  background-color: #333;
   border-radius: 10px;
 }
 .post a {
   text-decoration: none;
-  color: #333;
+  color: #b6c6dc;
   font-family: "Lato", sans-serif;
 }
 .post a:hover {
@@ -6794,14 +6807,14 @@ pre code {
   border: 1px solid #ccc;
   padding: 1rem;
   text-align: center;
-  background-color: #3d7480;
+  background-color: #333;
   border-radius: 10px;
 }
 .color-box a,
 .load-box a,
 .design-box a {
   text-decoration: none;
-  color: #333;
+  color: #b6c6dc;
   font-family: "Lato", sans-serif;
 }
 .color-box a:hover,
@@ -6845,5 +6858,40 @@ pre code {
     width: 50%;
     justify-content: center;
     margin: 0 auto;
+  }
+}
+.load-sheet {
+  width: 80%;
+  height: 18em;
+}
+
+.image-container {
+  display: flex;
+  gap: 10px;
+}
+
+.image-container a {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  transition: border-color 0.3s ease;
+  position: relative;
+}
+
+.image-container a:hover {
+  border: 4px solid #1e4741;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container a {
+    width: 150px;
+    height: 150px;
   }
 }
